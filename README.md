@@ -44,6 +44,31 @@ xx[3] <- 'z'                   for replacing
 cbind(geneDF,geneB = c(1,5,7))   for adding a column to the existing ; rbind for adding row
 barplot(geneDF$geneB)
 barplot(gene_DF2$geneB, col='red')
+
+my_fav_variable <- c('IL6','LINC','OAS1')
+my_fav_varıable
+#Error: object 'my_fav_varıable' not found
+
+ c <- 'my_fav_variable'
+ my_fav_variable <- c('IL6','LINC','OAS1')
+> C <- 'my_fav_variable'
+> C
+[1] "my_fav_variable"
+> my_fav_variable <- c('IL6','LINC','OAS1')
+> my_fav_variable
+[1] "IL6"  "LINC" "OAS1" 
+
+
+# format ----- 
+# yourname_pathway <- c('gene 1', 'gene 2')
+# ------------
+# example (https://www.genome.jp/entry/N00151)
+# rk_tnf.nfkb <- c('TNF', 'TNFRSF1A', 'RIPK1', 'TRADD', 'TRAF2', 'TRAF5',
+	'TAB1', 'TAB2', 'TAB3', 'MAP3K7', 'CHUK', 'IKBKB', 'IKBKG', 'NFKBIA',
+	'NFKB1', 'RELA')
+# ------------ 
+
+
 # this is a comment
 
 ```
