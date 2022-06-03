@@ -67,6 +67,15 @@ my_fav_varıable
 	'TAB1', 'TAB2', 'TAB3', 'MAP3K7', 'CHUK', 'IKBKB', 'IKBKG', 'NFKBIA',
 	'NFKB1', 'RELA')
 # ------------ 
+c <- 'ks_apop.cas' 
+ks_apop.cas <- c('FAS', 'FADD', 'procaspase8', 'caspase8', 'cytc', 'caspase9', 'caspase6', 'caspase8', 'DEATH')
+
+> c <- 'ks_apop.cas' 
+> c
+[1] "ks_apop.cas"
+ks_apop.cas <- c('FAS', 'FADD', 'procaspase8', 'caspase8', 'cytc', 'caspase9', 'caspase6', 'caspase8', 'DEATH')
+> ks_apop.cas
+[1] "FAS"         "FADD"        "procaspase8" "caspase8"    "cytc"        "caspase9"    "caspase6"    "caspase8"    "DEATH"  
 
 
 # this is a comment
