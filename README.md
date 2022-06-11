@@ -47,3 +47,14 @@ barplot(gene_DF2$geneB, col='red')
 # this is a comment
 
 ```
+my_list_1 <- list(
+c(1,7,3),
+1:10,
+matrix(data=1:4,2),
+list(x=1:6,
+y=data.frame(
+aa=1:2,
+bb=c('bn','rf')
+)
+)
+)
